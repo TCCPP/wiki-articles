@@ -108,3 +108,10 @@ into the markdown of your article.
 ## Previewing Wiki Articles
 
 To test out a wiki article use `!wiki-preview <entire article content>` on the server.
+
+
+# License
+
+The contents of this project are licensed under [CC BY-SA][CCBYSA]
+
+[CCBYSA]: https://creativecommons.org/licenses/by-sa/4.0/
