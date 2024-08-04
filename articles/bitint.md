@@ -8,10 +8,10 @@ available in C++. Major compilers have limited support for extended integers.
 <!-- inline -->
 ## GCC
 :white_check_mark: **[__int128](https://gcc.gnu.org/onlinedocs/gcc/_005f_005fint128.html)**<br>
-:no_entry: *`_BitInt(N)` not supp. yet*
+:warning: **[_BitInt(N)](https://gcc.gnu.org/gcc-14/changes.html#c)** (only in C, and only supported on some targets)
 
 <!-- inline -->
-## clang
+## Clang
 :white_check_mark: `__int128`<br>
 :white_check_mark: **[_BitInt(N)](https://clang.llvm.org/docs/LanguageExtensions.html#extended-integer-types)** (C++ too)<br>
 :warning: `_ExtInt(N)` (deprecated)
