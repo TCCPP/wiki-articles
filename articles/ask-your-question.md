@@ -1,6 +1,5 @@
 <!-- user author -->
 <!-- alias ask -->
-<!-- reply to target -->
 
 # Just Post Your Question
 
