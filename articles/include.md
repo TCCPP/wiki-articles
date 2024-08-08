@@ -6,7 +6,7 @@
 
 ## Include paths
 `#include <...>` looks up the "include paths" that are specified by the system and compiler. You can add paths to this by:<br>
-Passing `-I "some/directory/` on gcc/clang, `/I "some/directory/` on MSVC.<br>
+Passing `-I "some/directory/"` on gcc/clang, `/I "some/directory/"` on MSVC.<br>
 Adding `target_include_directories(targetname PRIVATE some/directory/)` in CMake
 
 `#include "..."` looks up the directory relative to the source file it's in. If it didn't find the header file that way, it looks up the include paths as a fallback.
