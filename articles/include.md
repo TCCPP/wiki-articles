@@ -20,4 +20,4 @@ This means, that you can't "include a library" just by including its header file
 ## Don't -s
 
 Do not include source(`.c, .cpp`) files.
-They contain definitions, which, according to [ODR](https://en.cppreference.com/w/cpp/language/definition) should only appear once. Including them would make a copy of all the definitions in them.
+They contain definitions, which, according to [ODR](https://en.cppreference.com/w/cpp/language/definition) should only appear once. Including one would make a copy of all the definitions in that source file.
