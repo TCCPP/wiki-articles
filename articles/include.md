@@ -1,8 +1,9 @@
 <!-- alias include -->
 
 # Including headers
-## What is [`#include`](https://en.cppreference.com/w/cpp/preprocessor/include)?
-`#include` includes a header file into the current file at the line immediately after the directive. This is practically a copy paste done by the preprocessor.
+## What is `#include`?
+`#include` is used to include code from header files. Under the hood, `#include` is essentially a copy-paste of file contents.<br>
+Read more about `#include` on [cppreference](https://en.cppreference.com/w/cpp/preprocessor/include).
 
 ## Include paths
 `#include <...>` looks up the "include paths" that are specified by the system and compiler. You can add paths to this by:<br>
@@ -12,10 +13,9 @@ Adding `target_include_directories(targetname PRIVATE some/directory/)` in CMake
 `#include "..."` looks up the directory relative to the source file it's in. If it didn't find the header file that way, it looks up the include paths as a fallback.
 
 ## Misconceptions:
-Header files have the minimal information necessary for the compiler at compile time.<br>
-A header simply contains the declarations of symbols, stating that the given thing exists, but it doesn't give a definition.
+A header simply contains the declarations of symbols, stating that the given thing exists, but it doesn't give a definition, because the compiler doesn't need them for compilation. Linking the symbols with their definitions is the job of the linker.
 
-This means, that you can't "include a library" just by including its header files.
+This means, that you can't "include a library" just by including its header files. You have to link definitions by either compiling the library source with your project, or linking the library binaries(.a / .lib files).
 
 ## Don't -s
 
