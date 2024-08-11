@@ -1,4 +1,4 @@
-<!-- alias cp-help, cp -->
+<!-- alias cp -->
 # The Difficulty in Helping with Competitive Coding Problems
 
 Please understand competitive programming (CP) questions are hard to help with because:

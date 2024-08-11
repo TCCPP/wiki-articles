@@ -1,5 +1,5 @@
 <!-- user author -->
-<!-- alias homework, hw -->
+<!-- alias hw -->
 
 # We Don't Do Your Homework
 
