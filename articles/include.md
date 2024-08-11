@@ -14,6 +14,7 @@ Adding `target_include_directories(targetname PRIVATE some/directory/)` in CMake
 
 ## Misconceptions:
 A header simply contains the declarations of symbols, stating that the given thing exists, but it doesn't give a definition, because the compiler doesn't need them for compilation. Linking the symbols with their definitions is the job of the linker.
+This is because definitions in header files would make each inclusion to create its own copy of the definition, violating the [One Definition Rule](https://en.cppreference.com/w/cpp/language/definition).
 
 This means, that you can't "include a library" just by including its header files. You have to link definitions by either compiling the library source with your project, or linking the library binaries(.a / .lib files).
 
