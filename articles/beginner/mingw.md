@@ -7,7 +7,7 @@
 4. Open the [Start menu](https://support.microsoft.com/en-us/windows/open-the-start-menu-4ed57ad7-ed1f-3cc9-c9e4-f329822f5aeb) and search for `cmd.exe`.
 5. Right-click on **Command Prompt** and select **Run as administrator**.
 6. Run: `setx PATH "%PATH%;C:\msys64\ucrt64\bin;"`.
-7.  Restart your session or PC to make `gcc` and `gdb` commands available.
+7. Restart your session or PC to make `gcc` and `gdb` commands available.
 
 ## See also
 - [MSYS2 Package Index](https://packages.msys2.org/queue)
