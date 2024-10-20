@@ -1,7 +1,6 @@
 # What Is `std::string_view` and Why Should I Use It?
 
 **[std::string_view][sv]**
-(alias for `std::basic_string_view<char>`)
 is a C++17 class which refers to a contiguous sequence of `char`s.
 You can think of it as a `const char*` and the string length,
 bundled together.
@@ -21,10 +20,11 @@ because it doesn't need null termination or dynamic memory allocation.
 and **[std::string][s]** can be implicitly converted to it,
 so **[std::string_view][sv]** is a drop-in replacement.
 
-## FAQ - Is `std::string` Useless in C++17?
+## When to use `std::string` vs. `std::string_view`
 
-No, **[std::string][s]** is still useful when you want to *store* a string,
-not just read its contents inside a function.
+**[std::string][s]** is useful when you want to *own* a string,
+not just read its contents.
+**[std::string_view][sv]** is a *non-owning view*.
 For example, **[std::string_view][sv]** cannot be used here:
 ```cpp
 // or when passing an rvalue reference
@@ -35,6 +35,7 @@ void store(std::string s) { this.s = std::move(s); }
 
 <:stackoverflow:1074747016644661258>
 [How exactly is std::string_view faster than const std::string&?](https://stackoverflow.com/q/40127965/5740428)
+- `!wiki ownership`
 
 [sv]: https://en.cppreference.com/w/cpp/string/basic_string_view
 [s]: https://en.cppreference.com/w/cpp/string/basic_string
