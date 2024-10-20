@@ -20,7 +20,7 @@ Compilers should raise a syntax error here.
 int a[0];
 ```
 Zero-size arrays
-[are not allowed](https://eel.is/c++draft/dcl.array#1),
+[are not allowed][zero size],
 but some compilers support them as an [extension][extension].
 
 ## Ill-Formed, No Diagnostic Required (IFNDR)
@@ -31,8 +31,9 @@ For example, having a template which can never be instantiated makes a
 program [IFNDR][IFNDR].
 
 
-[diagnostic message]: https://eel.is/c++draft/defns.diagnostic
-[extension]: https://eel.is/c++draft/intro.compliance#general-9
-[ill-formed]: https://eel.is/c++draft/defns.ill.formed
-[well-formed]: https://eel.is/c++draft/defns.well.formed
-[IFNDR]: https://eel.is/c++draft/intro.compliance#general-2.2
+[diagnostic message]: https://timsong-cpp.github.io/cppwp/n4950/defns.diagnostic
+[extension]: https://timsong-cpp.github.io/cppwp/n4950/intro.compliance.general#8
+[ill-formed]: https://timsong-cpp.github.io/cppwp/n4950/defns.ill.formed
+[well-formed]: https://timsong-cpp.github.io/cppwp/n4950/defns.well.formed
+[IFNDR]: https://timsong-cpp.github.io/cppwp/n4950/intro.compliance.general#2.2
+[zero size]: https://timsong-cpp.github.io/cppwp/n4950/dcl.array#1.sentence-3
