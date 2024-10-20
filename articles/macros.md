@@ -1,10 +1,8 @@
 # Why Should Preprocessor Macros Be Avoided?
 
-One of Bjarne Stroustrup's (creator of C++) design rules for C++ is:
-*"Preprocessor usage should be eliminated."*
-
-This should be done because macros work by simply replacing text,
+Macros work by simply replacing text,
 making them difficult to use and possibly unsafe.
+Almost always, C++ offers better alternatives such as function templates.
 Two common macro issues are shown below.
 
 <!-- inline -->
