@@ -11,7 +11,7 @@
 - [C++23](<https://en.cppreference.com/w/cpp/compiler_support/23>)
 - [C++26](<https://en.cppreference.com/w/cpp/compiler_support/26>)
 
-# Compiler Specific Links
+## Compiler Specific Links
 
 - [Clang](<https://clang.llvm.org/cxx_status.html>) (:tux:, :microsoft:)
 - [GCC](<https://gcc.gnu.org/projects/cxx-status.html>) (:tux:, MinGW)
