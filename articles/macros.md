@@ -9,13 +9,13 @@ Two common macro issues are shown below.
 ## :one: Unsanitized macros
 
 ```cpp
-#define A(cond) \
-  if (!cond) return
-if (y) A(z);
-else break; // for A(z) ?!
+#define mul(a, b) a * b
+mul(2 + 3, 4)
+// Expands to:
+// 2 + 3 * 5
 ```
-The `if (!z)` within `A(z)` "steals" the
-`else` statement so that it doesn't apply to `if (y)`.
+Because of the lack of `()` in `mul`,
+the order of addition/multiplication is unintentionally reversed.
 
 <!-- inline -->
 ## :two: Multiple evaluations
