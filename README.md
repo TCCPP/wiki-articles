@@ -75,8 +75,8 @@ Their name and avatar will be displayed in the embed.
 ```md
 <!-- alias x, y, z -->
 ```
-This comma-separated list of aliases in an HTML comment will create commands
-that can be used to display the article, in addition to `/howto`.
+This comma-separated list of aliases in an HTML comment will create text
+commands that can be used to display the article, in addition to `/howto`.
 The names of the aliases become the name of the commands.
 
 ### Whitespace and Line Breaks
