@@ -11,6 +11,7 @@ Links to: [all C++ versions][cpp], and [all C versions][c]
 - [C++20](<https://en.cppreference.com/w/cpp/compiler_support/20>)
 - [C++23](<https://en.cppreference.com/w/cpp/compiler_support/23>)
 - [C++26](<https://en.cppreference.com/w/cpp/compiler_support/26>)
+- [C99](<https://en.cppreference.com/w/c/compiler_support/99>)
 - [C23](<https://en.cppreference.com/w/c/compiler_support/23>)
 
 <!-- inline -->
