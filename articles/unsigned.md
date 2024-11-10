@@ -43,7 +43,9 @@ but they detect countless harmless cases.
 
 - [CppCoreGuidelines ES.106][guide] *Don’t try to avoid negative values by using unsigned*
 - [Bjarne Stroustrup - P1428][p1428] *Subscripts and sizes should be signed*
+- [CppCon 2016: Jon Kalb][cppcon] *`unsigned`: A Guideline for Better Code*
 
 [mod]: https://en.wikipedia.org/wiki/Modular_arithmetic
 [guide]: http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Res-nonnegative
 [p1428]: https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1428r0.pdf
+[cppcon]: https://www.youtube.com/watch?v=wvtFGa6XJDU
