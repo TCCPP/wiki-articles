@@ -5,10 +5,10 @@ Unsigned integers should generally be avoided because they have
 leading to surprising results:
 
 ```cpp
-my_vector[negative_int] = /* ... */; 
+void foo(unsigned val) { std::print("{}", val); }
+int main() { foo(-1); } // prints 4294967295
 ```
-**Bug:**: `negative_int` is implicitly converted to a huge positive integer,
-but `operator[]` thinks we cannot pass negatives.
+**Bug:** `-1` is implicitly converted to a huge positive integer.
 
 ```cpp
 auto deficit = target_size - size();
