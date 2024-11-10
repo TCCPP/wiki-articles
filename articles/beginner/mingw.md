@@ -1,4 +1,3 @@
-<!-- title -->
 # How to Install MinGW-w64
 1. Download and run the [MSYS2](https://www.msys2.org/#installation) installer with the default options.
 2. After installation, a terminal for the [UCRT64 environment](https://www.msys2.org/docs/environments/) will launch.
