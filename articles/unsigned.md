@@ -11,8 +11,8 @@ int main() { foo(-1); } // prints 4294967295
 **Bug:** `-1` is implicitly converted to a huge positive integer.
 
 ```cpp
-auto deficit = target_size - size();
-if (deficit > 0) { add_amount(deficit); }
+unsigned deficit = target_size - size();
+if (deficit > 0) { insert_amount(deficit); }
 else             { remove_amount(deficit); }
 ```
 **Bug:** Subtraction wraps around, so `deficit`
