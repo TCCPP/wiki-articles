@@ -25,7 +25,7 @@ Without warning flags like `-Wvla`, it can be easy to create a VLA by accident, 
 :no_entry: not available in C++ at all<br>
 :no_entry: was never supported by MSVC<br>
 :warning: optional feature since C11<br>
-:warning: supported as non-standard extension by GCC, clang
+:warning: supported as non-standard extension by GCC and clang
 
 <!-- inline -->
 ## See Also
