@@ -24,8 +24,3 @@ We *strongly* recommend to start out using an IDE, which will provide all these 
 ## :apple: Mac
 - [Xcode](https://developer.apple.com/xcode/)
 - [CLion](https://www.jetbrains.com/clion/)
-
-## Words of Advice
-> The wise programmer is told about the debugger and uses it.
-> The average programmer is told about the debugger and avoids it.
-> The foolish programmer is told about the debugger and laughs at it.
