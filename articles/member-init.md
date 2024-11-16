@@ -19,8 +19,8 @@ For trivial types like `int`, this works, but it can lead to bad performance
 for larger types, or result in an error:
 ```cpp
 struct C {
-  const int y; // error: uninitialized const member
-  C(int y) { this->y = y; } // error: assigning to const
+  const int z; // error: uninitialized const member
+  C(int z) { this->z = z; } // error: assigning to const
 };
 ```
 
