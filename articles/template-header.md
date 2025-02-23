@@ -1,8 +1,6 @@
 # Why can templates only be implemented in the header file?
 
-The only portable way of using templates at the moment is to implement them in header files by using inline functions.
-
-When instantiating a template, the compiler creates a new class/function with the given template argument.
+When a template is used, the compiler instantiates it by substituting template arguments in the function, class, struct, etc. Because the compiler must have the definition of the function, class, or struct available at the point of instantiation it doesn't work to split templates between C++ header files and .cpp files as is traditionally done for functions, classes, and structs.
 
 The compiler needs to have access to the implementation of the class methods or the function to instantiate them with the template argument. If these implementations were not in the header, they wouldn't be accessible, and therefore the compiler wouldn't be able to instantiate the template.
 
