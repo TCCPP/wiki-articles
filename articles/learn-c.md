@@ -16,9 +16,9 @@ We *strongly* recommend to start out using an IDE, which will provide all these 
 
 <!-- inline -->
 ## :tux: Linux
-- [Qt Creator](https://www.qt.io/product/development-tools)
 - [Visual Studio Code](https://code.visualstudio.com/docs/cpp/config-linux)
 - [CLion](https://www.jetbrains.com/clion/)
+- [Qt Creator](https://www.qt.io/product/development-tools)
 
 <!-- inline -->
 ## :apple: Mac
