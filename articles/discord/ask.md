@@ -1,25 +1,23 @@
 # How to Ask a Programming Question
 
-Anyone can ask a question in our programming channels. Following the guide [Writing The Perfect Question][1] is
-recommended.
+Before asking, debug the problem yourself.
 
-[1]: https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/
+State your problem clearly and provide all the necessary detail:
+- the relevant portion of your code (formatted as a code block),
+- the expected behavior,
+- the actual behavior
 
-<!-- inline -->
-## What to Post
-State your problem clearly and provide all necessary details:
-- the relevant portion of your code, or all of it
-- the expected output
-- the actual output (or the **full** error)<br>
-:trophy: **Gold Standard:** Minimal Reproducible Example
+ideally, provide a [Minimal, Reproducible Example](https://stackoverflow.com/help/minimal-reproducible-example), e.g., on [Compiler Explorer](https://godbolt.org/)
 
-<!-- inline -->
-## Where to Post
-Provide the relevant code in the message, and format it nicely with a code block\*.
-If it's too much for one message, you can upload it:
-- [Compiler Explorer](https://godbolt.org/) for most C and C++ snippets
-- [OnlineGDB](https://www.onlinegdb.com/) for interaction, debugging<br>
-:no_entry: **Do not post screenshots, let alone photos of your screen!**
+## Do Not
+
+- dump a bunch of code and expect people to guess what your problem or question might be
+- post screenshots, let alone photos of your screen
+- post your question into multiple channels at once
+- “it doesn’t work” is not a problem description
 
 ---
 * Use /code if you don't know how to format code blocks
+
+[Writing The Perfect Question](https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/)
+
