@@ -1,3 +1,8 @@
+This repository contains a handful of wiki/help articles used on the Together C & C++ discord server. The contents have
+been migrated to https://github.com/TCCPP/wiki.
+
+---
+
 # Together C & C++ Wiki Articles
 
 This collection of wiki articles has been developed by the Together C & C++ community.
